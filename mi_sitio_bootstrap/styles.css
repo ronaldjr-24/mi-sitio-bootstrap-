@@ -1,0 +1,76 @@
+.encabezado-personalizado {
+  background-image: url('assets/img/fondo-celulares.jpg');
+  background-size: contain;         /* Muestra la imagen entera sin recortar */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f8f9fa;        /* Color de fondo por si la imagen no cubre todo */
+  padding: 40px 20px;               /* Menor altura para que se vea más pequeño */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-principal {
+  background-color: rgba(249, 20, 120, 0.5);
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+
+.titulo-principal {
+  background-color: rgba(160, 24, 56, 0.5); /* fondo semitransparente detrás del texto */
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.titulo-principal {
+  color: #ff3392; /* Puedes cambiar por #007bff o #28a745 */
+  font-weight: bold;
+  text-shadow: 1px 1px 2px oklch(43.358% 0.12615 344.439 / 0.2);
+}
+
+/* Color del botón principal personalizado */
+.btn-primary {
+  background-color: #aaff33;
+  border-color: #33ffeb;
+}
+
+.btn-primary:hover {
+  background-color: #e74c3c;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Estilo para las tarjetas */
+.producto-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.producto-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Imagen de productos */
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 200px) {
+  body {
+    background-color: #f9f9f9;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+}
